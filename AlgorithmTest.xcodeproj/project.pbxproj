@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		772F3E871E92071800A5A5D5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 772F3E861E92071800A5A5D5 /* main.c */; };
+		772F3E991E92331700A5A5D5 /* Insertion Sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 772F3E981E92331700A5A5D5 /* Insertion Sort.c */; };
+		772F3E9B1E9234B600A5A5D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 772F3E9A1E9234B600A5A5D5 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		772F3E831E92071800A5A5D5 /* AlgorithmTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		772F3E861E92071800A5A5D5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		772F3E981E92331700A5A5D5 /* Insertion Sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Insertion Sort.c"; sourceTree = "<group>"; };
+		772F3E9A1E9234B600A5A5D5 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		772F3E9C1E92356D00A5A5D5 /* Merge sort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "Merge sort.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,27 @@
 		772F3E851E92071800A5A5D5 /* AlgorithmTest */ = {
 			isa = PBXGroup;
 			children = (
-				772F3E861E92071800A5A5D5 /* main.c */,
+				772F3E9A1E9234B600A5A5D5 /* main.cpp */,
+				772F3E921E92235F00A5A5D5 /* Merge sort */,
+				772F3E8D1E92074300A5A5D5 /* Insertion Sort */,
 			);
 			path = AlgorithmTest;
+			sourceTree = "<group>";
+		};
+		772F3E8D1E92074300A5A5D5 /* Insertion Sort */ = {
+			isa = PBXGroup;
+			children = (
+				772F3E981E92331700A5A5D5 /* Insertion Sort.c */,
+			);
+			name = "Insertion Sort";
+			sourceTree = "<group>";
+		};
+		772F3E921E92235F00A5A5D5 /* Merge sort */ = {
+			isa = PBXGroup;
+			children = (
+				772F3E9C1E92356D00A5A5D5 /* Merge sort.hpp */,
+			);
+			name = "Merge sort";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,7 +119,7 @@
 				};
 			};
 			buildConfigurationList = 772F3E7E1E92071800A5A5D5 /* Build configuration list for PBXProject "AlgorithmTest" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -119,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				772F3E871E92071800A5A5D5 /* main.c in Sources */,
+				772F3E991E92331700A5A5D5 /* Insertion Sort.c in Sources */,
+				772F3E9B1E9234B600A5A5D5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +268,7 @@
 				772F3E8C1E92071800A5A5D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
