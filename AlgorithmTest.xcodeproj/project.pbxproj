@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		772F3E991E92331700A5A5D5 /* Insertion Sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 772F3E981E92331700A5A5D5 /* Insertion Sort.c */; };
 		772F3E9B1E9234B600A5A5D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 772F3E9A1E9234B600A5A5D5 /* main.cpp */; };
+		774301831E9DFE5C008AC70F /* Heap sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 774301811E9DFE5C008AC70F /* Heap sort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +25,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		770CF7D21EA5B43900A28673 /* Binary sort tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Binary sort tree.h"; sourceTree = "<group>"; };
+		770CF7D31EA84A8B00A28673 /* AVL Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AVL Tree.h"; path = "../AVL Tree.h"; sourceTree = "<group>"; };
 		772F3E831E92071800A5A5D5 /* AlgorithmTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		772F3E981E92331700A5A5D5 /* Insertion Sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Insertion Sort.c"; sourceTree = "<group>"; };
 		772F3E9A1E9234B600A5A5D5 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		772F3E9C1E92356D00A5A5D5 /* Merge sort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "Merge sort.hpp"; sourceTree = "<group>"; };
+		774301811E9DFE5C008AC70F /* Heap sort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Heap sort.c"; sourceTree = "<group>"; };
+		7771A7A71EAF31030073FCBC /* Tree_Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tree_Node.h; path = ../Tree_Node.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,27 +65,15 @@
 		772F3E851E92071800A5A5D5 /* AlgorithmTest */ = {
 			isa = PBXGroup;
 			children = (
+				7771A7A71EAF31030073FCBC /* Tree_Node.h */,
+				770CF7D31EA84A8B00A28673 /* AVL Tree.h */,
+				770CF7D21EA5B43900A28673 /* Binary sort tree.h */,
+				774301811E9DFE5C008AC70F /* Heap sort.c */,
 				772F3E9A1E9234B600A5A5D5 /* main.cpp */,
-				772F3E921E92235F00A5A5D5 /* Merge sort */,
-				772F3E8D1E92074300A5A5D5 /* Insertion Sort */,
-			);
-			path = AlgorithmTest;
-			sourceTree = "<group>";
-		};
-		772F3E8D1E92074300A5A5D5 /* Insertion Sort */ = {
-			isa = PBXGroup;
-			children = (
+				772F3E9C1E92356D00A5A5D5 /* Merge sort.hpp */,
 				772F3E981E92331700A5A5D5 /* Insertion Sort.c */,
 			);
-			name = "Insertion Sort";
-			sourceTree = "<group>";
-		};
-		772F3E921E92235F00A5A5D5 /* Merge sort */ = {
-			isa = PBXGroup;
-			children = (
-				772F3E9C1E92356D00A5A5D5 /* Merge sort.hpp */,
-			);
-			name = "Merge sort";
+			path = AlgorithmTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +135,7 @@
 			files = (
 				772F3E991E92331700A5A5D5 /* Insertion Sort.c in Sources */,
 				772F3E9B1E9234B600A5A5D5 /* main.cpp in Sources */,
+				774301831E9DFE5C008AC70F /* Heap sort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
